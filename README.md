@@ -1,0 +1,1 @@
+Mon tout premier projet web, créé à mes débuts. Ce site utilise exclusivement du HTML et du CSS. Volontairement conçu sans JavaScript, il illustre mes premières compétences acquises en intégration web et mon point de départ
