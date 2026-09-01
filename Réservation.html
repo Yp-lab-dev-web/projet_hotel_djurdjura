@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation | Continental Djurdjura Lodge</title>
+    <link rel="short cut icon" href="img/logo2.png">
+    <link rel="stylesheet" href="css/reservation.css">
+</head>
+
+<body>
+    <header><img src="img/logo2.png" alt="Hotel Logo" width="300">
+        <h1>Bienvenue au Continental Djurdjura Lodge</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="chambres_&_tarifs.html">Chambres</a>
+            <a href="services.html">Services</a>
+            <a href="Réservation.html" class="active">Réservation</a>
+            <a href="apropos.html">À Propos</a>
+        </nav>
+    </header>
+    <hr>
+    <form action="#">
+        <div class="Client">
+            <fieldset>
+                <h2>Information client</h2>
+                <label for="Nom">Nom :</label>
+                <input type="text" id="Nom" placeholder="nom">
+                <label for="Prénom">Prénom :</label>
+                <input type="text" id="Prénom" placeholder="prénom">
+                <label for="Adresse">Adresse :</label>
+                <input type="text" id="Adresse" placeholder="Cité 500 lgts.....">
+                <label for="Numéro de Téléphone">Numéro de Téléphone :</label>
+                <input type="tel" id="Numéro de Téléphone" placeholder="+213 55 55 55 15">
+                <label for="email">Email :</label>
+                <input type="email" id="email" placeholder="email@example.com">
+            </fieldset>
+        </div>
+        <div class="détails">
+            <fieldset>
+                <h2>Détails de Réservation</h2>
+                <label for="date-heure">Date et heure d'arrivée :</label>
+                <input type="datetime-local" id="date_d'arrivée">
+                <label for="date-heure">Date et heure de départ :</label>
+                <input type="datetime-local" id="date de départ">
+                <label for="number">Nombre d'invitée:</label>
+                <input type="number" id="Nombre d'invitée">
+                <label for="number">Nombre de chambre:</label>
+                <input type="number" id="Nombre de chambre">
+                <label for="radio">Type de chambre :</label>
+                <label for="individuelle">Chambre individuelle</label>
+                <input type="radio" id="individuelle" name="chambre" value="chambre individuelle">
+                <label for="double">Chambre double</label>
+                <input type="radio" id="double" name="chambre" value="chambre double">
+                <label for="familiale">Chambre familiale</label>
+                <input type="radio" id="familiale" name="chambre" value="chambre familiale">
+                <label for="message">Demande Spéciale :</label>
+                <textarea id="message" id="" cols="30" rows="10"
+                    placeholder="Exemple:Lit bébé,chambre avec vue,régime alimentaire spécifique,animaux,......"></textarea>
+            </fieldset>
+        </div>
+        <div class="payement">
+            <fieldset>
+                <h2>Information de payement</h2>
+                <label for="number">Total à payer DA :</label>
+                <input type="number" id="payement">
+                <label for="radio">Methode de payement :</label>
+                <label for="carte">Carte de crédits</label>
+                <input type="radio" id="carte" name="payement" value="methode 1">
+                <label for="liquide">Liquide</label>
+                <input type="radio" id="liquide" name="payement" value="methode 2">
+            </fieldset>
+
+            <div class="buttons">
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Réinitialiser">
+
+
+            </div>
+    </form>
+    <hr>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <a href="index.html">Accueil</a>
+                <a href="chambres_&_tarifs.html">Chambres</a>
+                <a href="services.html">Services</a>
+                <a href="Réservation.html">Réservation</a>
+                <a href="apropos.html">À Propos</a>
+            </div>
+
+            <div class="footer-col brand">
+                <div class="footer-logo">CONTINENTAL</div>
+                <p>&copy; 2026 Djurdjura Lodge.<br>Tous droits réservés.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>info@continentaldjurdjura.com</p>
+                <p>+213 55 55 55 15</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
